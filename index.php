@@ -14,12 +14,12 @@ if(isset($_POST['sub'])){
 }?>
 
 <h1>Simple Calculator</h1><br>
-<form>
-First Number:<input name="n1" value=""><br>
-Second Number:<input name="n2" value=""><br>
+<form action="" method="POST">
+Primul numar:<input name="n1" value=""><br>
+Al doilea numar:<input name="n2" value=""><br>
 <input type="submit" name="sub" value="+">
 <input type="submit" name="sub" value="-">
 <input type="submit" name="sub" value="x">
 <input type="submit" name="sub" value="/"><br>
-<br>Result: <input type='text' value="<?php echo $ans;?>"><br>
+<br>Rezultat <input type='text' value="<?php echo $ans;?>"><br>
 </form>
